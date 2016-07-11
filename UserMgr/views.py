@@ -24,7 +24,7 @@ def LoginUser(request):
     else:
         next = '/'
 
-    if next.find('logout'):
+    if next.find('logout') > -1:
         next = '/'
 
     if request.method == "POST":

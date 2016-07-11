@@ -1,0 +1,11 @@
+{% extends "base_site.html" %}
+
+{% block content %}
+    <div id="add-course-dialog">
+        <form id="add-course-form" method="post" class="mws-form" action='{% url 'addcourse' %}'>
+            {% csrf_token %}
+            {{ form }}
+            <input type="submit" value="提交">
+        </form>
+    </div>
+{% endblock %}

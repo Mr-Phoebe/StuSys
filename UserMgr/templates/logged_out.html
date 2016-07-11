@@ -1,0 +1,13 @@
+{% extends "base_site.html" %}
+{% load i18n %}
+
+{% block breadcrumbs %}
+    <div class="breadcrumbs"><a href="{% url 'admin:index' %}">{% trans 'Home' %}</a></div>{% endblock %}
+
+{% block content %}
+
+    <p>{% trans "感谢使用学生成绩管理系统" %}</p>
+
+    <p><a href="{% url 'loginurl' %}">{% trans '重新登录' %}</a></p>
+
+{% endblock %}

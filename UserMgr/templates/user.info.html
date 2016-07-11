@@ -1,0 +1,23 @@
+{% extends "base_site.html" %}
+
+{% block content %}
+
+    <table class="table table-hover table-striped  table-bordered table-condensed">
+        <tr>
+            <th>用户名</th>
+            <th>真实姓名</th>
+            <th>角色</th>
+            <th>最后登陆时间</th>
+            <th>性别</th>
+        </tr>
+
+        <tr style="font-size: 13px;">
+            <td>{{ user.username }}</td>
+            <td>{{ user.realname }}</td>
+            <td>{{ user.get_role_display }}</td>
+            <td>{{ user.last_login|date:"Y-m-d H:i:s" }}</td>
+            <td>{{ user.get_sex_display }}</td>
+        </tr>
+
+    </table>
+{% endblock %}

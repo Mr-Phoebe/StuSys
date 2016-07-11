@@ -1,0 +1,20 @@
+{% extends "base_site.html" %}
+
+{% block content %}
+<table class="table table-hover table-striped  table-bordered table-condensed">
+    <tr>
+        <th>课程名称</th>
+        <th>学期</th>
+        <th>成绩</th>
+    </tr>
+
+    {% for i in ScoreList %}
+        <tr style="font-size: 13px;">
+            <td>{{ i.course.name }}</td>
+            <td>{{ i.course.term }}</td>
+            <td>{{ i.score }}</td>
+        </tr>
+    {% endfor %}
+
+</table>
+{% endblock %}

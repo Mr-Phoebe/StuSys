@@ -90,6 +90,7 @@ def DelCourse(request, ID):
 
 # 任教课程管理
 
+
 @login_required
 def ListTeacher(request):   # 任课教师列表
     if not request.user.role == 2:
@@ -119,6 +120,7 @@ def ListTeachCourse(request, ID):   # 增删 ID教师 的任教课程
 
 # score操作
 
+
 @login_required
 def ListCourseScore(request):   # 学生查看自己课程成绩
     if not request.user.role == 0:
@@ -132,11 +134,27 @@ def ListCourseScore(request):   # 学生查看自己课程成绩
     return render_to_response('self.score.list.html', kwvars, RequestContext(request))
 
 
+# 老师查看成绩
+
+
+@login_required
+def ListScoreOperation(request):
+    if not request.user.role == 1:
+        messages.error(request, u"权限不足！")
+        return HttpResponseRedirect("/")
+    teacher = get_user_model().objects.get(username=request.user.username)
+    CourseList = teacher.course.all()
+    kwvars = {
+        'request': request,
+        'CourseList': CourseList,
+    }
+    return render_to_response('teacher.score.list.html', kwvars, RequestContext(request))
+
 # 老师查看自己对应课程的学生成绩
 '''
 
 @login_required
-def ListCourStuScore(request,`ID):
+def ListStuScore(request,ID):
     if not request.user.role == 1:
         messages.error(request,u"权限不足！")
         return HttpResponseRedirect("/")
@@ -152,7 +170,7 @@ def ListCourStuScore(request,`ID):
 '''
 
 @login_required
-def ListCourseScore(request,`ID):
+def ListScoreChart(request,ID):
     if not request.user.role == 1:
         messages.error(request,u"权限不足！")
         return HttpResponseRedirect("/")
@@ -169,7 +187,7 @@ def ListCourseScore(request,`ID):
 
 
 @login_required
-def ListTeachingCourse(request):
+def EditScore(request):
     if not request.user.role == 1:
         messages.error(request,u"权限不足！")
         return HttpResponseRedirect("/")

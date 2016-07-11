@@ -114,36 +114,13 @@
                     <tr>
                         <td>
                             <span class="glyphicon glyphicon-picture btn-xs"></span><a
-                                href="">查看课程成绩</a>
+                                href="{% url 'listscoreoperation' %}">查看成绩</a>
                         </td>
                     </tr>
                     <tr>
                         <td>
                             <span class="glyphicon glyphicon-picture btn-xs"></span><a
-                                href="">查看学生成绩</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <span class="glyphicon glyphicon-picture btn-xs"></span><a
-                                href="{% url 'listteachingcourse' %}">录入成绩</a>
-                        </td>
-                    </tr>
-                    </tbody>
-                </table>
-            </div>
-            <div class="panel panel-primary">
-                <div class="panel-heading">
-                    <h4 class="panel-title">
-                        <span class=" glyphicon glyphicon-heart btn-xs"></span>课程管理
-                    </h4>
-                </div>
-                <table class="table">
-                    <tbody>
-                    <tr>
-                        <td>
-                            <span class="glyphicon glyphicon-picture btn-xs"></span><a
-                                href="{% url 'listteachingcourse' %}">任教课程</a>
+                                href="{% url 'editscore' %}">录入成绩</a>
                         </td>
                     </tr>
                     </tbody>

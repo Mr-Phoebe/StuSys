@@ -9,5 +9,6 @@ urlpatterns = patterns('ScoreMgr.views',
     url(r'^admin/course/del/(?P<ID>\d+)/', 'DelCourse', name='delcourse'),
     url(r'^admin/course/teacher/', 'ListTeacher', name='listteacher'),
     url(r'^student/score/$', 'ListCourseScore', name='listcoursescore'),
-    url(r'^teacher/course/$', 'ListTeachingCourse', name='listteachingcourse')
+    url(r'^teacher/course/$', 'EditScore', name='editscore'),
+    url(r'^teacher/score/$', 'ListScoreOperation', name='listscoreoperation'),
 )

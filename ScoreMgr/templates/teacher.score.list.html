@@ -1,0 +1,25 @@
+{% extends "base_site.html" %}
+
+{% block content %}
+<table class="table table-hover table-striped  table-bordered table-condensed">
+    <tr>
+        <th>#</th>
+        <th>名称</th>
+        <th>学期</th>
+        <th>操作</th>
+    </tr>
+
+    {% for i in CourseList %}
+        <tr style="font-size: 13px;">
+            <td>{{ i.id }}</td>
+            <td>{{ i.name }}</td>
+            <td>{{ i.term }}</td>
+            <td class="host_buttom">
+                <a class="btn btn-warning btn-xs"  href="" >查看学生成绩</a>
+                <a class="btn btn-danger btn-xs" href="">查看成绩报表</a>
+            </td>
+        </tr>
+    {% endfor %}
+
+</table>
+{% endblock %}

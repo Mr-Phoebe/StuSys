@@ -1,0 +1,64 @@
+{% extends "base_site.html" %}
+
+{% block content %}
+    <h1>{{ coursename }} 成绩统计图表</h1>
+    <div class="panel panel-info">
+        <div class="panel-heading">
+            <h3 class="panel-title">{{ coursename }} 成绩统计柱形图</h3>
+        </div>
+        <div class="panel-body">
+            <div id="chart_bar" style="width: 600px;height:400px;"></div>
+        </div>
+    </div>
+    <div class="panel panel-info">
+        <div class="panel-heading">
+            <h3 class="panel-title">{{ coursename }} 成绩统计饼图</h3>
+        </div>
+        <div class="panel-body">
+            <div id="chart_pie" style="width: 600px;height:400px;"></div>
+        </div>
+    </div>
+
+    <script>
+        var barchart = echarts.init($("#chart_bar")[0]);
+        var piechart = echarts.init($("#chart_pie")[0]);
+        var option_bar = {
+            title:{
+                text:'{{ coursename }} 成绩统计柱形图'
+            },
+            tooltip: {},
+            legend: {
+                data:['成绩']
+            },
+            xAxis: {
+                data: ["<60","61-70","71-80","81-90","91-100"]
+            },
+            yAxis: {},
+            series:[{
+                name:'成绩',
+                type:'bar',
+                data:['{{data.n5}}','{{data.n6}}','{{data.n7}}','{{data.n8}}','{{data.n9}}']
+            }]
+        };
+        var option_pie = {
+            series : [
+                {
+                    name: '成绩',
+                    type: 'pie',
+                    radius: '55%',
+                    data:[
+                        {value:{{data.n5}}, name:'<60'},
+                        {value:{{data.n6}}, name:'61-70'},
+                        {value:{{data.n7}}, name:'71-80'},
+                        {value:{{data.n8}}, name:'81-90'},
+                        {value:{{data.n9}}, name:'91-100'}
+                    ]
+                }
+            ]
+        };
+        barchart.setOption(option_bar);
+        piechart.setOption(option_pie);
+    </script>
+
+
+{% endblock %}

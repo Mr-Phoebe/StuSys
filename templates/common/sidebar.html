@@ -16,7 +16,8 @@
                 {% ifequal user.role 1 %}
                     <tr>
                         <td>
-                            <span class="glyphicon glyphicon-asterisk btn-xs"></span><a href="{% url 'listCourseTaught' %}">我任教的课程</a>
+                            <span class="glyphicon glyphicon-asterisk btn-xs"></span><a
+                                href="{% url 'listCourseTaught' %}">我任教的课程</a>
                         </td>
                     </tr>
                 {% endifequal %}
@@ -103,23 +104,6 @@
                         <td>
                             <span class="glyphicon glyphicon-picture btn-xs"></span><a
                                 href="{% url 'listteacher' %}">管理任教课程</a>
-                        </td>
-                    </tr>
-                    </tbody>
-                </table>
-            </div>
-            <div class="panel panel-primary">
-                <div class="panel-heading">
-                    <h4 class="panel-title">
-                        <span class=" glyphicon glyphicon-heart btn-xs"></span>系统调试
-                    </h4>
-                </div>
-                <table class="table">
-                    <tbody>
-                    <tr>
-                        <td>
-                            <span class="glyphicon glyphicon-picture btn-xs"></span><a
-                                href="{% url 'dbg_randstudents' %}">随机生成学生</a>
                         </td>
                     </tr>
                     </tbody>

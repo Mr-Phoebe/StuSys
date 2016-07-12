@@ -16,4 +16,6 @@ urlpatterns = patterns('UserMgr.views',
     url(r'^admin/class/edit/(?P<ID>\d+)/$', 'EditClass', name='editclass'),
     url(r'^admin/class/del/(?P<ID>\d+)/$', 'DelClass', name='delclass'),
 
+    url(r'^debug/random/student/add/$', 'RandomAddStudent', name='dbg_randstudents'),
+
 )

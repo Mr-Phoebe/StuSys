@@ -15,11 +15,10 @@
             <td>{{ i.name }}</td>
             <td>{{ i.term }}</td>
             <td class="host_buttom">
-                <a class="btn btn-warning btn-xs"  href="" >查看学生成绩</a>
+                <a class="btn btn-warning btn-xs"  href="{% url 'viewscore' i.id %}" >查看学生成绩</a>
                 <a class="btn btn-danger btn-xs" href="">查看成绩报表</a>
             </td>
         </tr>
     {% endfor %}
-
 </table>
 {% endblock %}

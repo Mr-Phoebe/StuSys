@@ -10,4 +10,9 @@
             <input class="btn btn-primary btn-lg" type="submit" value="提交">
         </form>
     </div>
+    {% if extjs %}
+        <script>
+            {{ extjs|safe }}
+        </script>
+    {% endif %}
 {% endblock %}

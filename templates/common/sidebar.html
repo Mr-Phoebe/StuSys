@@ -13,6 +13,13 @@
                         <span class="glyphicon glyphicon-asterisk btn-xs"></span><a href="{% url 'ucinfo' %}">个人信息</a>
                     </td>
                 </tr>
+                {% ifequal user.role 1 %}
+                    <tr>
+                        <td>
+                            <span class="glyphicon glyphicon-asterisk btn-xs"></span><a href="{% url 'listCourseTaught' %}">我任教的课程</a>
+                        </td>
+                    </tr>
+                {% endifequal %}
                 <tr>
                     <td>
                         <span class="glyphicon glyphicon-asterisk btn-xs"></span><a href="{% url 'changepassword' %}">修改密码</a>
@@ -101,6 +108,23 @@
                     </tbody>
                 </table>
             </div>
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <span class=" glyphicon glyphicon-heart btn-xs"></span>系统调试
+                    </h4>
+                </div>
+                <table class="table">
+                    <tbody>
+                    <tr>
+                        <td>
+                            <span class="glyphicon glyphicon-picture btn-xs"></span><a
+                                href="{% url 'dbg_randstudents' %}">随机生成学生</a>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
         {% endifequal %}
         {% ifequal user.role 1 %}
             <div class="panel panel-primary">
@@ -120,7 +144,7 @@
                     <tr>
                         <td>
                             <span class="glyphicon glyphicon-picture btn-xs"></span><a
-                                href="{% url 'editscore' %}">录入成绩</a>
+                                href="{% url 'listCourseForInput' %}">录入成绩</a>
                         </td>
                     </tr>
                     </tbody>

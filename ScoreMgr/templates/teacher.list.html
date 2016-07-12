@@ -17,7 +17,7 @@
             <td>{{ i.realname }}</td>
             <td>{{ i.get_sex_display }}</td>
             <td class="host_buttom">
-                <a class="btn btn-warning btn-xs"  href="" >管理任教课程</a>
+                <a class="btn btn-warning btn-xs"  href="{% url 'coursemgr' i.id %}" >管理任教课程</a>
             </td>
         </tr>
     {% endfor %}

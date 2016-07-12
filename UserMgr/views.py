@@ -231,4 +231,8 @@ def DelClass(request, ID):
         messages.error(request, u'<b>删除课程失败</b><br /><b>详细信息：</b>找不到ID为%s的课程！'%ID)
         return HttpResponseRedirect(reverse('listclass'))
 
-# 课程管理已移到应用 ScoreMgr 中
+@login_required
+def RandomAddStudent(request):
+    return
+
+

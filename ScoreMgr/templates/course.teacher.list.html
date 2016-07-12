@@ -1,0 +1,36 @@
+{% extends "base_site.html" %}
+
+{% block content %}
+    {% if editscore %}
+            <h2>选择需要录入成绩的课程：</h2>
+    {% endif %}
+<table class="table table-hover table-striped  table-bordered table-condensed">
+    <tr>
+        <th>#</th>
+        <th>名称</th>
+        <th>学期</th>
+        <th>起始时间</th>
+        <th>结束时间</th>
+        {% if editscore %}
+        <th>操作</th>
+        {% endif %}
+    </tr>
+
+    {% for i in CourseList %}
+        <tr style="font-size: 13px;">
+            <td>{{ i.id }}</td>
+            <td>{{ i.name }}</td>
+            <td>{{ i.term }}</td>
+            <td>{{ i.begindate|date:"Y-m-d" }}</td>
+            <td>{{ i.enddate|date:"Y-m-d" }}</td>
+            {% if editscore %}
+            <td class="host_buttom">
+                <a class="btn btn-warning btn-xs"  href="{% url 'addscore' i.id %}" >手工录入</a>
+{#                <a class="btn btn-danger btn-xs" href="{% url '' i.id %}">导入xls</a>#}
+            </td>
+            {% endif %}
+        </tr>
+    {% endfor %}
+
+</table>
+{% endblock %}

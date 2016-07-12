@@ -1,0 +1,21 @@
+{% extends "base_site.html" %}
+
+
+
+{% block content %}
+    <div id="add-course-dialog" class="form-group">
+        <h1>{{ title }}</h1>
+        <h3>录入科目： {{ coursename }}</h3>
+        <form id="add-course-form" method="post" class="mws-form" action=''>
+            {% csrf_token %}
+            {{ form }}
+            <br />
+            <input class="btn btn-primary btn-lg" type="submit" value="提交">
+        </form>
+    </div>
+    {% if extjs %}
+        <script>
+            {{ extjs|safe }}
+        </script>
+    {% endif %}
+{% endblock %}

@@ -134,6 +134,23 @@
                     </tbody>
                 </table>
             </div>
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <span class=" glyphicon glyphicon-heart btn-xs"></span>人员管理
+                    </h4>
+                </div>
+                <table class="table">
+                    <tbody>
+                    <tr>
+                        <td>
+                            <span class="glyphicon glyphicon-picture btn-xs"></span><a
+                                href="{% url 'liststudent' %}">学生列表</a>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
         {% endifequal %}
         {% ifequal user.role 0 %}
             <div class="panel panel-primary">

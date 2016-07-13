@@ -90,9 +90,9 @@ def DelCourse(request, ID):
 
 # 任教课程管理
 
-
+# 任课教师列表
 @login_required
-def ListTeacher(request):   # 任课教师列表
+def ListTeacher(request):
     if not request.user.role == 2:
         messages.error(request,u"权限不足！")
         return HttpResponseRedirect("/")
@@ -104,11 +104,29 @@ def ListTeacher(request):   # 任课教师列表
     return render_to_response('teacher.list.html', kwvars, RequestContext(request))
 
 
+# 任教课程管理
+
+# 上课学生列表
+@login_required
+def ListStudent(request):
+    if not request.user.role == 1:
+        messages.error(request, u"权限不足！")
+        return HttpResponseRedirect("/")
+    StudentList = get_user_model().objects.filter(role=0).order_by('username')
+
+    kwvars = {
+        'request': request,
+        'StudentList': StudentList,
+    }
+    return render_to_response('student.list.html', kwvars, RequestContext(request))
+
+
+
 # score操作
 
-
+# 学生查看自己课程成绩
 @login_required
-def ListCourseScore(request):   # 学生查看自己课程成绩
+def ListCourseScore(request):
     if not request.user.role == 0:
         messages.error(request,u"权限不足！")
         return HttpResponseRedirect("/")

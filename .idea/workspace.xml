@@ -28,52 +28,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="score.chart.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ScoreMgr/templates/score.chart.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1221">
-              <caret line="33" column="56" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="form.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ScoreMgr/form.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="586">
+            <state relative-caret-position="827">
               <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UserMgr/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8251">
-              <caret line="232" column="0" selection-start-line="232" selection-start-column="0" selection-end-line="232" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/UserMgr/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="16" column="72" selection-start-line="16" selection-start-column="72" selection-end-line="16" selection-end-column="72" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sidebar.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="sidebar.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/common/sidebar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="110" column="18" selection-start-line="110" selection-start-column="18" selection-end-line="110" selection-end-column="18" />
-              <folding />
+            <state relative-caret-position="296">
+              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+              <folding>
+                <element signature="n#ifequal#3;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -81,33 +53,9 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ScoreMgr/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="12" column="97" selection-start-line="12" selection-start-column="97" selection-end-line="12" selection-end-column="97" />
+            <state relative-caret-position="444">
+              <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="teacher.score.list.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ScoreMgr/templates/teacher.score.list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="666">
-              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="score.view.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ScoreMgr/templates/score.view.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding>
-                <marker date="1468361274623" expanded="true" signature="34:798" ph="{% block content ... %}" />
-                <marker date="1468361274623" expanded="true" signature="661:707" ph="..." />
-                <marker date="1468361274623" expanded="true" signature="661:782" ph="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -115,8 +63,38 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ScoreMgr/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="138" column="0" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+            <state relative-caret-position="457">
+              <caret line="114" column="68" selection-start-line="114" selection-start-column="68" selection-end-line="114" selection-end-column="68" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="teacher.list.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ScoreMgr/templates/teacher.list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="15" column="28" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="student.list.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ScoreMgr/templates/student.list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UserMgr/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="482">
+              <caret line="45" column="11" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -125,35 +103,9 @@
       <file leaf-file-name="base_site.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UserMgr/templates/base_site.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1110">
+            <state relative-caret-position="1184">
               <caret line="32" column="15" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
-              <folding>
-                <marker date="1468363618741" expanded="true" signature="34:2642" ph="..." />
-                <marker date="1468363618741" expanded="true" signature="45:686" ph="..." />
-                <marker date="1468363618741" expanded="true" signature="139:170" ph="{% block title ... %}" />
-                <marker date="1468363618741" expanded="true" signature="698:2632" ph="..." />
-                <marker date="1468363618741" expanded="true" signature="788:1972" ph="..." />
-                <marker date="1468363618741" expanded="true" signature="815:1958" ph="..." />
-                <marker date="1468363618741" expanded="true" signature="848:1238" ph="..." />
-                <marker date="1468363618741" expanded="true" signature="980:1173" ph="..." />
-                <marker date="1468363618741" expanded="true" signature="1331:1948" ph="..." />
-                <marker date="1468363618741" expanded="true" signature="1366:1455" ph="..." />
-                <marker date="1468363618741" expanded="true" signature="1380:1442" ph="..." />
-                <marker date="1468363618741" expanded="true" signature="1503:1936" ph="..." />
-                <marker date="1468363618741" expanded="true" signature="1519:1924" ph="{% if user.is_authenticated ... %}" />
-                <marker date="1468363618741" expanded="true" signature="1571:1655" ph="..." />
-                <marker date="1468363618741" expanded="true" signature="1678:1765" ph="..." />
-                <marker date="1468363618741" expanded="true" signature="1813:1897" ph="..." />
-                <marker date="1468363618741" expanded="false" signature="2012:2029" ph="..." />
-                <marker date="1468363618741" expanded="true" signature="2030:2620" ph="..." />
-                <marker date="1468363618741" expanded="true" signature="2060:2604" ph="..." />
-                <marker date="1468363618741" expanded="true" signature="2099:2178" ph="..." />
-                <marker date="1468363618741" expanded="true" signature="2217:2585" ph="..." />
-                <marker date="1468363618741" expanded="true" signature="2239:2509" ph="{% if messages ... %}" />
-                <marker date="1468363618741" expanded="true" signature="2281:2477" ph="{% for message in messages ... %}" />
-                <marker date="1468363618741" expanded="true" signature="2336:2407" ph="{% if message.tags ... %}" />
-                <marker date="1468363618741" expanded="true" signature="2530:2563" ph="{% block content ... %}" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -183,7 +135,6 @@
         <option value="$PROJECT_DIR$/StuSys/views.py" />
         <option value="$PROJECT_DIR$/UserMgr/templates/base.html" />
         <option value="$PROJECT_DIR$/UserMgr/templates/login.html" />
-        <option value="$PROJECT_DIR$/StuSys/settings.py" />
         <option value="$PROJECT_DIR$/UserMgr/admin.py" />
         <option value="$PROJECT_DIR$/UserMgr/templates/password_change_form.html" />
         <option value="$PROJECT_DIR$/UserMgr/templates/password_reset_complete.html" />
@@ -211,9 +162,11 @@
         <option value="$PROJECT_DIR$/ScoreMgr/templates/score.chart.html" />
         <option value="$PROJECT_DIR$/UserMgr/views.py" />
         <option value="$PROJECT_DIR$/UserMgr/urls.py" />
+        <option value="$PROJECT_DIR$/ScoreMgr/form.py" />
+        <option value="$PROJECT_DIR$/StuSys/settings.py" />
         <option value="$PROJECT_DIR$/templates/common/sidebar.html" />
         <option value="$PROJECT_DIR$/ScoreMgr/urls.py" />
-        <option value="$PROJECT_DIR$/ScoreMgr/form.py" />
+        <option value="$PROJECT_DIR$/ScoreMgr/templates/student.list.html" />
         <option value="$PROJECT_DIR$/ScoreMgr/views.py" />
       </list>
     </option>
@@ -274,6 +227,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -372,8 +327,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -624,8 +577,8 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
-        <env name="DJANGO_SETTINGS_MODULE" value="StuSys.settings" />
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="StuSys.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -704,7 +657,21 @@
       <option name="project" value="LOCAL" />
       <updated>1468365535826</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="图表、录入成绩、查看成绩、管理课程">
+      <created>1468366122247</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1468366122247</updated>
+    </task>
+    <task id="LOCAL-00008" summary="教师界面添加学生列表">
+      <created>1468378415963</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1468378415963</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -718,16 +685,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="2391" y="-9" width="2018" height="1093" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1983556" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20606372" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5021436" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.49785638" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21864952" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21804512" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.49785638" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -735,9 +701,10 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="manage.py@StuSys" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="manage.py@StuSys" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32867885" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -757,7 +724,8 @@
     <MESSAGE value="Edit &amp; Del Course" />
     <MESSAGE value="..." />
     <MESSAGE value="图表、录入成绩、查看成绩、管理课程" />
-    <option name="LAST_COMMIT_MESSAGE" value="图表、录入成绩、查看成绩、管理课程" />
+    <MESSAGE value="教师界面添加学生列表" />
+    <option name="LAST_COMMIT_MESSAGE" value="教师界面添加学生列表" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -767,14 +735,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/StuSys/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/StuSys/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -835,14 +795,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StuSys/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -955,14 +907,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UserMgr/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="43" column="13" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -984,7 +928,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -993,7 +936,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1001,7 +943,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1009,7 +950,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-39">
           <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1017,15 +957,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="125" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ScoreMgr/templates/teacher.list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="13" selection-start-line="3" selection-start-column="0" selection-end-line="24" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1033,11 +964,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="74">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <marker date="1468361274623" expanded="true" signature="34:798" ph="{% block content ... %}" />
-            <marker date="1468361274623" expanded="true" signature="661:707" ph="..." />
-            <marker date="1468361274623" expanded="true" signature="661:782" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1046,7 +972,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="28" column="87" selection-start-line="28" selection-start-column="87" selection-end-line="28" selection-end-column="87" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1054,21 +979,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ScoreMgr/templates/teacher.score.add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoreMgr/templates/teacher.score.add.html" />
     <entry file="file://$PROJECT_DIR$/ScoreMgr/templates/teacher.score.list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
+        <state relative-caret-position="703">
           <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
           <folding />
         </state>
@@ -1076,57 +993,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/UserMgr/templates/base_site.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1110">
+        <state relative-caret-position="1184">
           <caret line="32" column="15" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
-          <folding>
-            <marker date="1468363618741" expanded="true" signature="34:2642" ph="..." />
-            <marker date="1468363618741" expanded="true" signature="45:686" ph="..." />
-            <marker date="1468363618741" expanded="true" signature="139:170" ph="{% block title ... %}" />
-            <marker date="1468363618741" expanded="true" signature="698:2632" ph="..." />
-            <marker date="1468363618741" expanded="true" signature="788:1972" ph="..." />
-            <marker date="1468363618741" expanded="true" signature="815:1958" ph="..." />
-            <marker date="1468363618741" expanded="true" signature="848:1238" ph="..." />
-            <marker date="1468363618741" expanded="true" signature="980:1173" ph="..." />
-            <marker date="1468363618741" expanded="true" signature="1331:1948" ph="..." />
-            <marker date="1468363618741" expanded="true" signature="1366:1455" ph="..." />
-            <marker date="1468363618741" expanded="true" signature="1380:1442" ph="..." />
-            <marker date="1468363618741" expanded="true" signature="1503:1936" ph="..." />
-            <marker date="1468363618741" expanded="true" signature="1519:1924" ph="{% if user.is_authenticated ... %}" />
-            <marker date="1468363618741" expanded="true" signature="1571:1655" ph="..." />
-            <marker date="1468363618741" expanded="true" signature="1678:1765" ph="..." />
-            <marker date="1468363618741" expanded="true" signature="1813:1897" ph="..." />
-            <marker date="1468363618741" expanded="false" signature="2012:2029" ph="..." />
-            <marker date="1468363618741" expanded="true" signature="2030:2620" ph="..." />
-            <marker date="1468363618741" expanded="true" signature="2060:2604" ph="..." />
-            <marker date="1468363618741" expanded="true" signature="2099:2178" ph="..." />
-            <marker date="1468363618741" expanded="true" signature="2217:2585" ph="..." />
-            <marker date="1468363618741" expanded="true" signature="2239:2509" ph="{% if messages ... %}" />
-            <marker date="1468363618741" expanded="true" signature="2281:2477" ph="{% for message in messages ... %}" />
-            <marker date="1468363618741" expanded="true" signature="2336:2407" ph="{% if message.tags ... %}" />
-            <marker date="1468363618741" expanded="true" signature="2530:2563" ph="{% block content ... %}" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserMgr/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="89" column="68" selection-start-line="89" selection-start-column="66" selection-end-line="89" selection-end-column="68" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ScoreMgr/templates/score.chart.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1221">
-          <caret line="33" column="56" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
+        <state relative-caret-position="781">
+          <caret line="33" column="60" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/common/sidebar.html">
+    <entry file="file://$PROJECT_DIR$/StuSys/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="110" column="18" selection-start-line="110" selection-start-column="18" selection-end-line="110" selection-end-column="18" />
+        <state relative-caret-position="-505">
+          <caret line="97" column="5" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserMgr/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ScoreMgr/form.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
+        <state relative-caret-position="827">
           <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding />
         </state>
@@ -1134,33 +1041,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ScoreMgr/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="12" column="97" selection-start-line="12" selection-start-column="97" selection-end-line="12" selection-end-column="97" />
+        <state relative-caret-position="444">
+          <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoreMgr/templates/teacher.list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="15" column="28" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserMgr/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="45" column="11" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoreMgr/templates/student.list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ScoreMgr/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="138" column="0" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+        <state relative-caret-position="457">
+          <caret line="114" column="68" selection-start-line="114" selection-start-column="68" selection-end-line="114" selection-end-column="68" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UserMgr/views.py">
+    <entry file="file://$PROJECT_DIR$/templates/common/sidebar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8251">
-          <caret line="232" column="0" selection-start-line="232" selection-start-column="0" selection-end-line="232" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UserMgr/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="16" column="72" selection-start-line="16" selection-start-column="72" selection-end-line="16" selection-end-column="72" />
-          <folding />
+        <state relative-caret-position="296">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding>
+            <element signature="n#ifequal#3;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

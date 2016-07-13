@@ -1,0 +1,24 @@
+{% extends "base_site.html" %}
+
+{% block content %}
+    <table class="table table-hover table-striped  table-bordered table-condensed">
+        <tr>
+            <th>#</th>
+            <th>学号</th>
+            <th>真实姓名</th>
+            <th>班级</th>
+            <th>性别</th>
+        </tr>
+
+        {% for i in StudentList %}
+            <tr style="font-size: 13px;">
+                <td>{{ i.id }}</td>
+                <td>{{ i.username }}</td>
+                <td>{{ i.realname }}</td>
+                <td>{{ i.theclass.classid }}</td>
+                <td>{{ i.get_sex_display }}</td>
+            </tr>
+        {% endfor %}
+
+    </table>
+{% endblock %}

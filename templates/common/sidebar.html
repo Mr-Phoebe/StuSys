@@ -10,25 +10,28 @@
                 <tbody>
                 <tr>
                     <td>
-                        <span class="glyphicon glyphicon-asterisk btn-xs"></span><a href="{% url 'ucinfo' %}">个人信息</a>
+                        <span class="glyphicon glyphicon-asterisk btn-xs"></span><a
+                            href="{% url 'ucinfo' %}">个人信息</a>
                     </td>
                 </tr>
                 {% ifequal user.role 1 %}
                     <tr>
                         <td>
-                            <span class="glyphicon glyphicon-asterisk btn-xs"></span><a
+                            <span class="glyphicon glyphicon-list-alt btn-xs"></span><a
                                 href="{% url 'listCourseTaught' %}">我任教的课程</a>
                         </td>
                     </tr>
                 {% endifequal %}
                 <tr>
                     <td>
-                        <span class="glyphicon glyphicon-asterisk btn-xs"></span><a href="{% url 'changepassword' %}">修改密码</a>
+                        <span class="glyphicon glyphicon-wrench btn-xs"></span><a
+                            href="{% url 'changepassword' %}">修改密码</a>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <span class="glyphicon glyphicon-log-out btn-xs"></span><a href="{% url 'logouturl' %}">退出登陆</a>
+                        <span class="glyphicon glyphicon-log-out btn-xs"></span><a
+                            href="{% url 'logouturl' %}">退出登陆</a>
                     </td>
                 </tr>
                 </tbody>
@@ -45,13 +48,14 @@
                     <tbody>
                     <tr>
                         <td>
-                            <span class="glyphicon glyphicon-picture btn-xs"></span><a
+                            <span class="glyphicon glyphicon-list btn-xs"></span><a
                                 href="{% url 'uclist' %}">管理人员</a>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <span class="glyphicon glyphicon-picture btn-xs"></span><a href="{% url 'ucadd' %}">添加人员</a>
+                            <span class="glyphicon glyphicon-plus btn-xs"></span><a
+                                href="{% url 'ucadd' %}">添加人员</a>
                         </td>
                     </tr>
                     </tbody>
@@ -67,13 +71,13 @@
                     <tbody>
                     <tr>
                         <td>
-                            <span class="glyphicon glyphicon-picture btn-xs"></span><a
+                            <span class="glyphicon glyphicon-list btn-xs"></span><a
                                 href="{% url 'listclass' %}">管理班级</a>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <span class="glyphicon glyphicon-picture btn-xs"></span><a
+                            <span class="glyphicon glyphicon-plus btn-xs"></span><a
                                 href="{% url 'addclass' %}">添加班级</a>
                         </td>
                     </tr>
@@ -90,19 +94,19 @@
                     <tbody>
                     <tr>
                         <td>
-                            <span class="glyphicon glyphicon-picture btn-xs"></span><a
+                            <span class="glyphicon glyphicon-list btn-xs"></span><a
                                 href="{% url 'listcourse' %}">管理课程</a>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <span class="glyphicon glyphicon-picture btn-xs"></span><a
+                            <span class="glyphicon glyphicon-plus btn-xs"></span><a
                                 href="{% url 'addcourse' %}">添加课程</a>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <span class="glyphicon glyphicon-picture btn-xs"></span><a
+                            <span class="glyphicon glyphicon-list-alt btn-xs"></span><a
                                 href="{% url 'listteacher' %}">管理任教课程</a>
                         </td>
                     </tr>
@@ -121,13 +125,13 @@
                     <tbody>
                     <tr>
                         <td>
-                            <span class="glyphicon glyphicon-picture btn-xs"></span><a
+                            <span class="glyphicon glyphicon-stats btn-xs"></span><a
                                 href="{% url 'listscoreoperation' %}">查看成绩</a>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <span class="glyphicon glyphicon-picture btn-xs"></span><a
+                            <span class="glyphicon glyphicon-pencil btn-xs"></span><a
                                 href="{% url 'listCourseForInput' %}">录入成绩</a>
                         </td>
                     </tr>
@@ -144,7 +148,7 @@
                     <tbody>
                     <tr>
                         <td>
-                            <span class="glyphicon glyphicon-picture btn-xs"></span><a
+                            <span class="glyphicon glyphicon-list btn-xs"></span><a
                                 href="{% url 'liststudent' %}">学生列表</a>
                         </td>
                     </tr>
@@ -163,7 +167,7 @@
                     <tbody>
                     <tr>
                         <td>
-                            <span class="glyphicon glyphicon-picture btn-xs"></span><a
+                            <span class="glyphicon glyphicon-tasks btn-xs"></span><a
                                 href="{% url 'listcoursescore' %}">查看课程成绩</a>
                         </td>
                     </tr>
@@ -182,7 +186,8 @@
                 <tbody>
                 <tr>
                     <td>
-                        <span class="glyphicon glyphicon-log-in btn-xs"></span><a href="{% url 'loginurl' %}">登陆</a>
+                        <span class="glyphicon glyphicon-log-in btn-xs"></span><a
+                            href="{% url 'loginurl' %}">登陆</a>
                     </td>
                 </tr>
                 </tbody>

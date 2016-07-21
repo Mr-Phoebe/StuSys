@@ -305,13 +305,10 @@ def DelScore(request, ID):
         return HttpResponseRedirect("/")
     try:
         score = Score.objects.get(id=ID)
-        if (get_user_model().course.filter(id=score.id).count() == 0):
-            messages.error(request, u"权限不足！")
-            return HttpResponseRedirect("/")
         score.delete()
         messages.success(request, u"删除成绩记录成功")
         return HttpResponseRedirect(reverse("viewscore", args=(score.course.id,)))
-    except Course.DoesNotExist:
+    except Score.DoesNotExist:
         messages.error(request, u'<b>删除成绩记录失败</b><br /><b>详细信息：</b>找不到ID为%s的成绩记录！' % ID)
         return HttpResponseRedirect("/")
 
